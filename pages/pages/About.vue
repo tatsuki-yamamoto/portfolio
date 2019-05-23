@@ -6,8 +6,12 @@
       <v-flex>
         <v-card class="ma-2">
           <v-container fluid>
-            <v-list v-for="item in items" :key="item.title">
-              <v-list-tile class="tile">
+            <v-list>
+              <v-list-tile
+                v-for="item in items"
+                :key="item.title"
+                class="tile pa-2"
+              >
                 <v-layout wrap>
                   <v-flex xs12 sm4>
                     <v-list-tile-content class="subheading font-weight-bold">
