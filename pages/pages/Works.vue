@@ -36,7 +36,7 @@ export default {
           skil: 'JavaScript, Vue.js, Nuxt.js, Vuetify',
           content:
             '個人的に勉強したVue.jsを用いてポートフォリオサイトを作成しました。デザインはVuetifyを使用しています。',
-          site: '/',
+          site: '',
           sauce: 'https://github.com/tatsuki-yamamoto/portfolio'
         },
         {

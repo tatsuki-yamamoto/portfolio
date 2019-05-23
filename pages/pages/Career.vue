@@ -7,7 +7,7 @@
     </v-layout>
 
     <v-layout align-center column justify-center>
-      <v-btn large color="primary" class="ma-4" nuxt to="/pages/Contact">
+      <v-btn large color="primary" class="ma-4" nuxt to="/pages/Works">
         WORKS
       </v-btn>
     </v-layout>
