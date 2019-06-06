@@ -42,7 +42,15 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'UA-141573206-1', //GoogleアナリティクスのプロパティID
+        debug: false //本番環境以外でもGAを有効にしたい場合はtrueに。
+      }
+    ]
+  ],
 
   /*
    ** Build configuration
