@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.8.1",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
   },
